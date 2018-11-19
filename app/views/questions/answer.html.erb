@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<div class="container" class="form-group">
+  <h1>Questions#answer</h1>
+  <p>Find me in app/views/questions/answer.html.erb</p>
+  <p class="from"><i> - You </i></p>
+  <p class="questionAnswer"><%= @question %></p>
+  <p class="from"><i>- Your coach</i></p>
+  <p class="questionAnswer"><%= @answer %></p>
+  <%= link_to "Ask one more question", ask_path %>
+</div>
+
+
